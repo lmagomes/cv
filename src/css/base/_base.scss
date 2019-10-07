@@ -1,0 +1,36 @@
+// Small CSS reset
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(204, 204, 204);
+}
+
+a {
+    text-decoration: none;
+    color: $secondary-text;
+}
+
+// define what a page is
+#page {
+    width: 21cm;
+    height: 29.7cm;
+
+    background: $primary-background;
+    display: block;
+    margin: 0.5cm auto;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+//  When printing, remove margins
+@media print {
+    body,
+    #page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}

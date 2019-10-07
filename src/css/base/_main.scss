@@ -1,0 +1,75 @@
+// Main wrapper
+#main-info {
+    display: flex;
+    flex-direction: row;
+}
+
+// Left and Right
+#main-info .left {
+    background: $secondary-background;
+    flex: 2;
+    height: 24.7cm;
+    // the sub sections will flex as columns
+    display: flex;
+    flex-direction: column;
+}
+#main-info .right {
+    flex: 4;
+    height: 24.7cm;
+}
+
+// left
+#main-info .left h2 {
+    background: $primary-background;
+    font-size: $m-size;
+    padding: 1rem;
+    text-align: center;
+}
+
+#contacts .item {
+    color: $secondary-text;
+    font-size: $s-size;
+    padding: 0.5rem 0;
+}
+
+// right
+#main-info .right h2 {
+    background: $secondary-background;
+    font-size: $m-size;
+    padding: 1rem;
+    text-align: center;
+}
+
+// titles on experience and education
+#main-info .right .experience-title {
+    padding-top: 1rem;
+    text-align: center;
+}
+#main-info .right .institution {
+    text-align: center;
+}
+#main-info .right .period {
+    text-align: center;
+    font-size: $xs-size;
+}
+
+//
+#main-info .experience-description {
+    font-size: $s-size;
+    line-height: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-align: justify;
+}
+
+// Languages
+
+#languages {
+    // Add some padding to align it with "Education"... Not the most elegant way to do this, I'll admit
+    padding-top: 4.2rem;
+}
+#languages p {
+    padding: 1rem;
+    font-size: $m-size;
+    color: $secondary-text;
+}

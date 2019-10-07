@@ -1,0 +1,37 @@
+// A specific file for styling the skill tags
+#skills ul {
+    padding-inline-start: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+    align-items: center;
+    list-style: none;
+}
+
+#skills ul li {
+    display: inline;
+    border: 3px solid;
+    margin: 0.3rem;
+    padding: 0.1rem;
+    border-radius: 12px;
+    color: $secondary-text;
+}
+
+#skills ul li.language {
+    border-color: #d3bc80;
+    background: #ae944d;
+}
+#skills ul li.markup {
+    border-color: #d39180;
+    background: #ae614d;
+}
+#skills ul li.database {
+}
+#skills ul li.misc {
+    border-color: #537585;
+    background: #345b6e;
+}
+#skills ul li.other {
+    color: $primary-text;
+    border-color: #fffcf2;
+    background: #fff5dc;
+}

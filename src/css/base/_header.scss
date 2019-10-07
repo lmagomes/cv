@@ -1,0 +1,48 @@
+#showcase {
+    display: flex;
+    flex-direction: row;
+    // border-bottom: 1px #333 dashed;
+}
+
+// my first name
+#showcase .left h1 span {
+    color: white;
+}
+
+// My name
+#showcase .left h1 {
+    color: $primary-text;
+    font-size: $l-size;
+    padding: 3rem 2rem 0 2rem;
+}
+
+// my title
+#showcase .left p {
+    color: white;
+    font-size: $m-size;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+// Left and Right
+#showcase .left {
+    background: $secondary-background;
+    flex: 2;
+    height: 5cm;
+}
+#showcase .right {
+    flex: 4;
+    height: 5cm;
+}
+
+// small blurb
+#showcase .right .information {
+    font-size: $s-size;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+#showcase .right {
+    padding: 0 1rem;
+}
