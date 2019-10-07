@@ -29,7 +29,7 @@
 #contacts .item {
     color: $secondary-text;
     font-size: $s-size;
-    padding: 0.5rem 0;
+    padding: 1rem 0 0.5rem 0;
 }
 
 // right
@@ -66,10 +66,15 @@
 
 #languages {
     // Add some padding to align it with "Education"... Not the most elegant way to do this, I'll admit
-    padding-top: 4.2rem;
+    padding-top: 2.3rem;
 }
-#languages p {
-    padding: 1rem;
+#languages .language {
+    padding: 1rem 0.5rem;
     font-size: $m-size;
+    color: $secondary-text;
+}
+#languages .language-proficiency {
+    font-size: $xs-size;
+    padding-left: 2rem;
     color: $secondary-text;
 }
