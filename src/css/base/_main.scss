@@ -35,6 +35,7 @@
 // right
 #main-info .right h2 {
     background: $secondary-background;
+    color: $secondary-text;
     font-size: $m-size;
     padding: 1rem;
     text-align: center;
@@ -66,10 +67,10 @@
 
 #languages {
     // Add some padding to align it with "Education"... Not the most elegant way to do this, I'll admit
-    padding-top: 2.3rem;
+    padding-top: 0.3rem;
 }
 #languages .language {
-    padding: 1rem 0.5rem;
+    padding: 1rem 1.5rem;
     font-size: $m-size;
     color: $secondary-text;
 }

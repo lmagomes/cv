@@ -7,31 +7,39 @@
     list-style: none;
 }
 
+// Style the li elements as tags
+// Colors will come after
 #skills ul li {
     display: inline;
     border: 3px solid;
-    margin: 0.3rem;
-    padding: 0.1rem;
+    padding: 0.1rem 0.5rem;
     border-radius: 12px;
     color: $secondary-text;
 }
 
 #skills ul li.language {
-    border-color: #d3bc80;
-    background: #ae944d;
+    // border-color: #d3bc80;
+    // background: #ae944d;
+    border-color: darken($base-tag-foreground, 10%);
+    background: darken($base-tag-background, 10%);
 }
 #skills ul li.markup {
-    border-color: #d39180;
-    background: #ae614d;
+    border-color: lighten($base-tag-foreground, 10%);
+    background: lighten($base-tag-background, 10%);
 }
 #skills ul li.database {
+    border-color: darken($base-tag-foreground, 20%);
+    background: darken($base-tag-background, 20%);
 }
 #skills ul li.misc {
-    border-color: #537585;
-    background: #345b6e;
+    border-color: lighten($base-tag-foreground, 20%);
+    background: lighten($base-tag-background, 20%);
 }
 #skills ul li.other {
-    color: $primary-text;
-    border-color: #fffcf2;
-    background: #fff5dc;
+    border-color: darken($base-tag-foreground, 30%);
+    background: darken($base-tag-background, 30%);
+}
+#skills ul li.oses {
+    border-color: darken($base-tag-foreground, 60%);
+    background: darken($base-tag-background, 60%);
 }
