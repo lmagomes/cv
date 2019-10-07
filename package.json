@@ -1,13 +1,13 @@
 {
     "name": "cv",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is my cv.",
     "main": "index.js",
     "scripts": {
         "dev": "parcel src/index.html --port 1111"
     },
     "keywords": [],
-    "author": "",
+    "author": "Luis Gomes",
     "license": "ISC",
     "dependencies": {
         "parcel-bundler": "^1.12.3"
