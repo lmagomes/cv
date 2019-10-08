@@ -37,7 +37,7 @@
 
 // small blurb
 #showcase .right .information {
-    font-size: $s-size;
+    font-size: $xs-size;
     line-height: 1.5rem;
     padding-top: 1rem;
     text-align: justify;
@@ -45,4 +45,8 @@
 
 #showcase .right {
     padding: 0 1rem;
+}
+
+#showcase .right h3 {
+    padding-top: 1rem;
 }
