@@ -58,20 +58,21 @@
 #main-info .experience-description {
     font-size: $s-size;
     line-height: 1.5rem;
-    padding: 1rem;
+    padding: 0.8rem;
     padding-bottom: 0;
     text-align: justify;
 }
-#main-info .experience-description:last-child {
-    // add back padding to the last paragraph
-    padding-bottom: 1rem;
-}
+// #main-info .experience-description:last-of-type {
+//     // add back padding to the last paragraph
+//     padding-bottom: 1rem;
+//     background: #333;
+// }
 
 // Languages
 
 #languages {
     // Add some padding to align it with "Education"... Not the most elegant way to do this, I'll admit
-    padding-top: 0.3rem;
+    // padding-top: 0.7rem;
 }
 #languages .language {
     padding: 1rem 1.5rem;
