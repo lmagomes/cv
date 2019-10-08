@@ -14,6 +14,6 @@ To look at it, run:
     $ npm run dev
 ```
 
-And point your browser to port http://localhost:1111/
+And point your browser to port http://localhost:1111/. Or you can download it from [build/cv_luis_gomes.pdf](build/cv_luis_gomes.pdf)
 
 ![cv image](build/cv_luis_gomes.png)
