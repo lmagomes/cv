@@ -18,22 +18,20 @@
 }
 
 #skills ul li.language {
-    // border-color: #d3bc80;
-    // background: #ae944d;
     border-color: darken($base-tag-foreground, 10%);
     background: darken($base-tag-background, 10%);
 }
 #skills ul li.markup {
-    border-color: lighten($base-tag-foreground, 10%);
-    background: lighten($base-tag-background, 10%);
+    border-color: scale-color($base-tag-foreground, $lightness: 10%);
+    background: scale-color($base-tag-background, $lightness: 10%);
 }
 #skills ul li.database {
     border-color: darken($base-tag-foreground, 20%);
     background: darken($base-tag-background, 20%);
 }
 #skills ul li.misc {
-    border-color: lighten($base-tag-foreground, 20%);
-    background: lighten($base-tag-background, 20%);
+    border-color: scale-color($base-tag-foreground, $lightness: 20%);
+    background: scale-color($base-tag-background, $lightness: 20%);
 }
 #skills ul li.other {
     border-color: darken($base-tag-foreground, 30%);
