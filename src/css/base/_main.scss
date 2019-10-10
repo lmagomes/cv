@@ -2,33 +2,33 @@
 #main-info {
     display: flex;
     flex-direction: row;
+    height: 24.7cm;
 }
 
 // Left and Right
 #main-info .left {
     background: $secondary-background;
     flex: 2;
-    height: 24.7cm;
     // the sub sections will flex as columns
     display: flex;
     flex-direction: column;
 }
+
 #main-info .right {
     flex: 4;
-    height: 24.7cm;
 }
 
 // left
 #main-info .left h2 {
     background: $primary-background;
-    font-size: $m-size;
+    font-size: $l-size;
     padding: $header-padding;
     text-align: center;
 }
 
 #contacts .item {
     color: $secondary-text;
-    font-size: $s-size;
+    font-size: $m-size;
     padding: 1rem 0 0.5rem 0;
 }
 
@@ -36,7 +36,7 @@
 #main-info .right h2 {
     background: $secondary-background;
     color: $secondary-text;
-    font-size: $m-size;
+    font-size: $l-size;
     padding: $header-padding;
     text-align: center;
 }
@@ -46,41 +46,33 @@
     padding-top: 1rem;
     text-align: center;
 }
+
 #main-info .right .institution {
     text-align: center;
 }
+
 #main-info .right .period {
     text-align: center;
-    font-size: $xs-size;
+    font-size: $s-size;
 }
 
 //
 #main-info .experience-description {
-    font-size: $s-size;
+    font-size: $m-size;
     line-height: 1.5rem;
     padding: 0.8rem;
     padding-bottom: 0;
     text-align: justify;
 }
-// #main-info .experience-description:last-of-type {
-//     // add back padding to the last paragraph
-//     padding-bottom: 1rem;
-//     background: #333;
-// }
 
-// Languages
-
-#languages {
-    // Add some padding to align it with "Education"... Not the most elegant way to do this, I'll admit
-    // padding-top: 0.7rem;
-}
 #languages .language {
     padding: 1rem 1.5rem;
     font-size: $m-size;
     color: $secondary-text;
 }
+
 #languages .language-proficiency {
-    font-size: $xs-size;
+    font-size: $s-size;
     padding-left: 2rem;
     color: $secondary-text;
 }

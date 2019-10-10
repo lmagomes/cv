@@ -1,6 +1,7 @@
 #showcase {
     display: flex;
     flex-direction: row;
+    height: 5cm;
 }
 
 // my first name
@@ -11,13 +12,13 @@
 // My name
 #showcase .left h1 {
     color: $primary-text;
-    font-size: $l-size;
+    font-size: $xl-size;
 }
 
 // my title
 #showcase .left p {
     color: white;
-    font-size: $m-size;
+    font-size: $l-size;
     text-align: center;
 }
 
@@ -25,7 +26,6 @@
 #showcase .left {
     background: $secondary-background;
     flex: 2;
-    height: 5cm;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,12 +34,11 @@
 
 #showcase .right {
     flex: 4;
-    height: 5cm;
 }
 
 // small blurb
 #showcase .right .information {
-    font-size: $xs-size;
+    font-size: $s-size;
     line-height: 1.5rem;
     padding-top: 1rem;
     text-align: justify;
@@ -50,5 +49,6 @@
 }
 
 #showcase .right h3 {
+    font-size: $l-size;
     padding: 1rem 0 0 1rem;
 }
