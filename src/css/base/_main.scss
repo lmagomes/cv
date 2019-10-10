@@ -65,6 +65,12 @@
     text-align: justify;
 }
 
+// For the last paragraph, add some bottom padding
+#experience > div:last-child .experience-description {
+    padding-bottom: 1rem;
+}
+
+// Languages
 #languages .language {
     padding: 1rem 1.5rem;
     font-size: $m-size;
