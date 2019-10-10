@@ -1,7 +1,6 @@
 #showcase {
     display: flex;
     flex-direction: row;
-    // border-bottom: 1px #333 dashed;
 }
 
 // my first name
@@ -13,14 +12,12 @@
 #showcase .left h1 {
     color: $primary-text;
     font-size: $l-size;
-    padding: 3rem 2rem 0 2rem;
 }
 
 // my title
 #showcase .left p {
     color: white;
     font-size: $m-size;
-    padding: 0 2rem;
     text-align: center;
 }
 
@@ -29,7 +26,12 @@
     background: $secondary-background;
     flex: 2;
     height: 5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
 #showcase .right {
     flex: 4;
     height: 5cm;
@@ -43,10 +45,10 @@
     text-align: justify;
 }
 
-#showcase .right {
+#showcase .right p {
     padding: 0 1rem;
 }
 
 #showcase .right h3 {
-    padding-top: 1rem;
+    padding: 1rem 0 0 1rem;
 }
