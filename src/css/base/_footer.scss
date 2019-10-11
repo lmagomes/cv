@@ -10,16 +10,6 @@
     // color: scale-color($primary-text, $lightness: 70%);
 }
 
-// Left and Right
-#version .left {
-    background: $secondary-background;
-    flex: 2;
-}
-
-#version .right {
-    flex: 4;
-}
-
 #version-info {
     font-size: $xs-size;
     text-align: right;

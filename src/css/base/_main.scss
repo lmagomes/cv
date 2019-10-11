@@ -7,15 +7,9 @@
 
 // Left and Right
 #main-info .left {
-    background: $secondary-background;
-    flex: 2;
     // the sub sections will flex as columns
     display: flex;
     flex-direction: column;
-}
-
-#main-info .right {
-    flex: 4;
 }
 
 // left

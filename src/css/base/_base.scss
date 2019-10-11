@@ -35,6 +35,16 @@ a {
     }
 }
 
+// front and rear are the same for all sections
+.right {
+    flex: 4;
+}
+
+.left {
+    background: $secondary-background;
+    flex: 2;
+}
+
 //
 em {
     background: darken($primary-background, 5%);
