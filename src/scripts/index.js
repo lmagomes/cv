@@ -1,10 +1,14 @@
 import "../css/styles";
 
-console.log(process.env.GIT_BRANCH);
-
 // Set version (if available)
 if (/\d+\.\d+\.\d+/g.exec(process.env.GIT_BRANCH)) {
-    document.querySelector("#version").textContent = `Version ${git.branch()}`;
+    const versionEl = document.querySelector("#version");
+
+    // and if we have it enabled on the CSS height variables.
+    if (versionEl.clientHeight > 0) {
+        const versionInfoEl = document.querySelector("#version-info");
+        versionInfoEl.textContent = `Version ${process.env.GIT_BRANCH}`;
+    }
 }
 
 /*
