@@ -1,5 +1,12 @@
 import "../css/styles";
 
+console.log(process.env.GIT_BRANCH);
+
+// Set version (if available)
+if (/\d+\.\d+\.\d+/g.exec(process.env.GIT_BRANCH)) {
+    document.querySelector("#version").textContent = `Version ${git.branch()}`;
+}
+
 /*
  * This is some js code to align #languages with #education. Not the most
  * elegant way to do this, I'll admit.

@@ -4,7 +4,7 @@
     "description": "This is my cv.",
     "main": "index.js",
     "scripts": {
-        "dev": "parcel src/index.html --port 1111"
+        "dev": "GIT_BRANCH=`git branch | grep \\* | cut -d ' ' -f2` parcel src/index.html --port 1111"
     },
     "keywords": [],
     "author": "Luis Gomes",
