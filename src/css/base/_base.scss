@@ -34,3 +34,10 @@ a {
         box-shadow: 0;
     }
 }
+
+em {
+    background: darken($primary-background, 5%);
+    color: scale-color($primary-text, $lightness: 15%);
+    font-style: normal;
+    // font-weight: bolder;
+}
