@@ -33,7 +33,7 @@
 // right
 #main-info .right h2 {
     background: $secondary-background;
-    color: $secondary-text;
+    color: $primary-text;
     font-size: $l-size;
     padding: $header-padding;
     text-align: center;
@@ -57,10 +57,19 @@
 // Paragraphs for experience
 #main-info .experience-description {
     font-size: $m-size;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     padding: 0.8rem;
     padding-bottom: 0;
     text-align: justify;
+}
+
+#main-info .experience-tech {
+    font-size: $s-size;
+    // line-height: 1.5rem;
+    padding: 0.1rem 0 0 1rem;
+    padding-bottom: 0;
+    text-align: justify;
+    font-style: italic;
 }
 
 // For the last paragraph, add some bottom padding
