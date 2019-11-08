@@ -1,43 +1,45 @@
 // A specific file for styling the skill tags
-#skills ul {
-  padding-inline-start: 2rem;
-  line-height: 2rem;
-  padding: 1rem;
-  align-items: center;
-  list-style: none;
-}
+#skills {
+  ul {
+    padding-inline-start: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+    align-items: center;
+    list-style: none;
 
-// Style the li elements as tags
-// Colors will come after
-#skills ul li {
-  display: inline;
-  border: 3px solid;
-  padding: 0.1rem 0.5rem;
-  border-radius: 8px;
-  color: $secondary-text;
-}
+    // Style the li elements as tags
+    li {
+      display: inline;
+      border: 3px solid;
+      padding: 0.1rem 0.5rem;
+      border-radius: 8px;
+      color: $secondary-text;
 
-#skills ul li.language {
-  border-color: darken($base-tag-foreground, 10%);
-  background: darken($base-tag-background, 10%);
-}
-#skills ul li.markup {
-  border-color: scale-color($base-tag-foreground, $lightness: 10%);
-  background: scale-color($base-tag-background, $lightness: 10%);
-}
-#skills ul li.database {
-  border-color: darken($base-tag-foreground, 20%);
-  background: darken($base-tag-background, 20%);
-}
-#skills ul li.misc {
-  border-color: scale-color($base-tag-foreground, $lightness: 20%);
-  background: scale-color($base-tag-background, $lightness: 20%);
-}
-#skills ul li.other {
-  border-color: darken($base-tag-foreground, 30%);
-  background: darken($base-tag-background, 30%);
-}
-#skills ul li.oses {
-  border-color: darken($base-tag-foreground, 60%);
-  background: darken($base-tag-background, 60%);
+      // Add some colors
+      &.language {
+        border-color: darken($base-tag-foreground, 10%);
+        background: darken($base-tag-background, 10%);
+      }
+      &.markup {
+        border-color: scale-color($base-tag-foreground, $lightness: 10%);
+        background: scale-color($base-tag-background, $lightness: 10%);
+      }
+      &.database {
+        border-color: darken($base-tag-foreground, 20%);
+        background: darken($base-tag-background, 20%);
+      }
+      &.misc {
+        border-color: scale-color($base-tag-foreground, $lightness: 20%);
+        background: scale-color($base-tag-background, $lightness: 20%);
+      }
+      &.other {
+        border-color: darken($base-tag-foreground, 30%);
+        background: darken($base-tag-background, 30%);
+      }
+      &.oses {
+        border-color: darken($base-tag-foreground, 60%);
+        background: darken($base-tag-background, 60%);
+      }
+    }
+  }
 }

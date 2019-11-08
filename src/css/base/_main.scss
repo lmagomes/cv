@@ -3,73 +3,58 @@
   display: flex;
   flex-direction: row;
   height: $main-height;
-}
 
-// Left and Right
-#main-info .left {
-  // the sub sections will flex as columns
-  display: flex;
-  flex-direction: column;
-}
+  .left {
+    // the sub sections will flex as columns
+    display: flex;
+    flex-direction: column;
 
-// left
-#main-info .left h2 {
-  background: $primary-background;
-  font-size: $l-size;
-  padding: $header-padding;
-  text-align: center;
-}
+    h2 {
+      background: $primary-background;
+      font-size: $l-size;
+      padding: $header-padding;
+      text-align: center;
+    }
+  }
 
-#contacts .item {
-  color: $secondary-text;
-  font-size: $m-size;
-  padding: 1rem 0 0.5rem 0;
-}
+  .right {
+    h2 {
+      background: $secondary-background;
+      color: $primary-text;
+      font-size: $l-size;
+      padding: $header-padding;
+      text-align: center;
+    }
 
-#contacts .item:last-child {
-  padding-bottom: 1rem;
-}
-
-// right
-#main-info .right h2 {
-  background: $secondary-background;
-  color: $primary-text;
-  font-size: $l-size;
-  padding: $header-padding;
-  text-align: center;
-}
-
-// titles on experience and education
-#main-info .right .experience-title {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-#main-info .right .institution {
-  text-align: center;
-}
-
-#main-info .right .period {
-  text-align: center;
-  font-size: $s-size;
-}
-
-// Paragraphs for experience
-#main-info .experience-description {
-  font-size: $m-size;
-  line-height: 1.2rem;
-  padding: 0.8rem;
-  padding-bottom: 0;
-  text-align: justify;
-}
-
-#main-info .experience-tech {
-  font-size: $s-size;
-  // line-height: 1.5rem;
-  padding: 0.1rem 0 0 1rem;
-  padding-bottom: 0;
-  text-align: justify;
-  font-style: italic;
+    // titles on experience and education
+    .experience-title {
+      padding-top: 1rem;
+      text-align: center;
+    }
+    .institution {
+      text-align: center;
+    }
+    .period {
+      text-align: center;
+      font-size: $s-size;
+    }
+    // Paragraphs for experience
+    .experience-description {
+      font-size: $m-size;
+      line-height: 1.2rem;
+      padding: 0.8rem;
+      padding-bottom: 0;
+      text-align: justify;
+    }
+    .experience-tech {
+      font-size: $s-size;
+      // line-height: 1.5rem;
+      padding: 0.1rem 0 0 1rem;
+      padding-bottom: 0;
+      text-align: justify;
+      font-style: italic;
+    }
+  }
 }
 
 // For the last paragraph, add some bottom padding
@@ -77,15 +62,30 @@
   padding-bottom: 1rem;
 }
 
-// Languages
-#languages .language {
-  padding: 1rem 1.5rem;
-  font-size: $m-size;
-  color: $secondary-text;
+// Style the contacts
+#contacts {
+  .item {
+    color: $secondary-text;
+    font-size: $m-size;
+    padding: 1rem 0 0.5rem 0;
+
+    // Add some padding to the last .item
+    &:last-child {
+      padding-bottom: 1rem;
+    }
+  }
 }
 
-#languages .language-proficiency {
-  font-size: $s-size;
-  padding-left: 2rem;
-  color: $secondary-text;
+// Style the languages
+#languages {
+  .language {
+    padding: 1rem 1.5rem;
+    font-size: $m-size;
+    color: $secondary-text;
+  }
+  .language-proficiency {
+    font-size: $s-size;
+    padding-left: 2rem;
+    color: $secondary-text;
+  }
 }

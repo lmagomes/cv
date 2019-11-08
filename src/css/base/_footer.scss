@@ -8,12 +8,12 @@
   height: $footer-height;
   // color: darken($primary-background, 30%);
   // color: scale-color($primary-text, $lightness: 70%);
-}
 
-#version-info {
-  font-size: $xs-size;
-  text-align: right;
-  margin-right: 0.2rem;
-  color: darken($primary-background, 30%);
-  color: scale-color($primary-text, $lightness: 70%);
+  &-info {
+    font-size: $xs-size;
+    text-align: right;
+    margin-right: 0.2rem;
+    color: darken($primary-background, 30%);
+    color: scale-color($primary-text, $lightness: 70%);
+  }
 }

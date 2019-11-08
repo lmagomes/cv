@@ -2,44 +2,45 @@
   display: flex;
   flex-direction: row;
   height: $header-height;
-}
 
-// Left has some flex content
-#showcase .left {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+  // Left has some flex content
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-// my first name
-#showcase .left h1 span {
-  color: white;
-}
+    // My name
+    h1 {
+      color: $primary-text;
+      font-size: $xl-size;
 
-// My name
-#showcase .left h1 {
-  color: $primary-text;
-  font-size: $xl-size;
-}
+      // my first name
+      span {
+        color: white;
+      }
+    }
 
-// my title
-#showcase .left p {
-  color: white;
-  font-size: $l-size;
-  text-align: center;
-}
+    // my title
+    p {
+      color: white;
+      font-size: $l-size;
+      text-align: center;
+    }
+  }
 
-// small blurb
-#showcase .right .information {
-  // font-size: $s-size;
-  // line-height: 1.5rem;
-  padding: 2rem 1rem 0 1rem;
-  text-align: justify;
-  // font-weight: 800;
-}
-
-#showcase .right h3 {
-  font-size: $l-size;
-  padding: 1rem 0 0 1rem;
+  // and on the right, a small blurb
+  .right {
+    .information {
+      // font-size: $s-size;
+      // line-height: 1.5rem;
+      padding: 2rem 1rem 0 1rem;
+      text-align: justify;
+      // font-weight: 800;
+    }
+    h3 {
+      font-size: $l-size;
+      padding: 1rem 0 0 1rem;
+    }
+  }
 }
