@@ -1,18 +1,18 @@
 {
-    "name": "cv",
-    "version": "1.0.0",
-    "description": "This is my cv.",
-    "main": "index.js",
-    "scripts": {
-        "dev": "GIT_BRANCH=`git branch | grep \\* | cut -d '/' -f2` parcel src/index.html --port 1111"
-    },
-    "keywords": [],
-    "author": "Luis Gomes",
-    "license": "ISC",
-    "dependencies": {
-        "parcel-bundler": "^1.12.3"
-    },
-    "devDependencies": {
-        "sass": "^1.23.0"
-    }
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "This is my cv.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "GIT_BRANCH=`git branch | grep \\* | cut -d '/' -f2` parcel src/index.html --port 1111"
+  },
+  "keywords": [],
+  "author": "Luis Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
+    "sass": "^1.23.0"
+  }
 }

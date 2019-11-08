@@ -1,54 +1,54 @@
 // Small CSS reset
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    background: #ccc;
-    color: $primary-text;
+  font-family: "Roboto", sans-serif;
+  background: #ccc;
+  color: $primary-text;
 }
 
 a {
-    text-decoration: none;
-    color: $secondary-text;
+  text-decoration: none;
+  color: $secondary-text;
 }
 
 // define what a page is
 #page {
-    width: 21cm;
-    height: 29.7cm;
-    background: $primary-background;
-    display: block;
-    margin: 0.5cm auto;
-    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  width: 21cm;
+  height: 29.7cm;
+  background: $primary-background;
+  display: block;
+  margin: 0.5cm auto;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
 
 //  When printing, remove margins
 @media print {
-    body,
-    #page {
-        margin: 0;
-        box-shadow: 0;
-    }
+  body,
+  #page {
+    margin: 0;
+    box-shadow: 0;
+  }
 }
 
 // front and rear are the same for all sections
 .right {
-    flex: 4;
+  flex: 4;
 }
 
 .left {
-    background: $secondary-background;
-    flex: 2;
+  background: $secondary-background;
+  flex: 2;
 }
 
 //
 em {
-    background: darken($primary-background, 5%);
-    color: scale-color($primary-text, $lightness: 15%);
-    font-style: normal;
-    // font-weight: bolder;
+  background: darken($primary-background, 5%);
+  color: scale-color($primary-text, $lightness: 15%);
+  font-style: normal;
+  // font-weight: bolder;
 }

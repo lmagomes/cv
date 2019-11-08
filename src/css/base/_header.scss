@@ -1,45 +1,45 @@
 #showcase {
-    display: flex;
-    flex-direction: row;
-    height: $header-height;
+  display: flex;
+  flex-direction: row;
+  height: $header-height;
 }
 
 // Left has some flex content
 #showcase .left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 // my first name
 #showcase .left h1 span {
-    color: white;
+  color: white;
 }
 
 // My name
 #showcase .left h1 {
-    color: $primary-text;
-    font-size: $xl-size;
+  color: $primary-text;
+  font-size: $xl-size;
 }
 
 // my title
 #showcase .left p {
-    color: white;
-    font-size: $l-size;
-    text-align: center;
+  color: white;
+  font-size: $l-size;
+  text-align: center;
 }
 
 // small blurb
 #showcase .right .information {
-    // font-size: $s-size;
-    // line-height: 1.5rem;
-    padding: 2rem 1rem 0 1rem;
-    text-align: justify;
-    // font-weight: 800;
+  // font-size: $s-size;
+  // line-height: 1.5rem;
+  padding: 2rem 1rem 0 1rem;
+  text-align: justify;
+  // font-weight: 800;
 }
 
 #showcase .right h3 {
-    font-size: $l-size;
-    padding: 1rem 0 0 1rem;
+  font-size: $l-size;
+  padding: 1rem 0 0 1rem;
 }
